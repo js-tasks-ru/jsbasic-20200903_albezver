@@ -3,16 +3,6 @@
  * @param {string} str base
  * @returns {boolean}
  */
-/*
- //Возвращает true для innocent rabbit
-function checkSpam(str) {
-  if (str.includes('1xBet') || str.includes('XXX')) {
-    return true;
-  } else {
-    return false;
-  }
-}
-*/
 
 function checkSpam(str) {
   let strLower = str.toLowerCase();

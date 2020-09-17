@@ -3,6 +3,13 @@
  * @param {string} str base
  * @returns {boolean}
  */
+
 function checkSpam(str) {
-  // ваш код...
+  let strLower = str.toLowerCase();
+  if (strLower.includes('1xBet'.toLocaleLowerCase()) ||
+  str.includes('XXX'.toLowerCase())) {
+    return true;
+  } else {
+    return false;
+  }
 }
